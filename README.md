@@ -1,18 +1,48 @@
-# Salesforce DX Project: Next Steps
+# NihonSchool CRM
+## Project Objective
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+The NihonSchool CRM project is a proof-of-concept Salesforce application designed to manage the operations of a Japanese language school.
 
-## How Do You Plan to Deploy Your Changes?
+The main goal is to demonstrate the ability to build a Salesforce application from scratch, combining:
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+- Declarative development (Lightning Apps, Flows, Reports, Dashboards)
+- Custom objects and data model design
+- Automation and business logic
+- User interface and experience for school staff
 
-## Configure Your Salesforce DX Project
+This project will serve as a portfolio piece for demonstrating skills in Salesforce development for a junior developer position.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Planned Features (MVP)
 
-## Read All About It
+- Student Management
+Track student information, JLPT level, enrollment status, and progress.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- Course Management
+Manage courses, schedules, and teacher assignments.
+
+- Enrollment Tracking
+Link students to courses and monitor attendance or completion.
+
+- Automation
+Use Flows or Apex triggers to automate updates and notifications.
+
+- Reporting & Dashboards
+Provide insights such as number of students per JLPT level, course enrollment statistics, etc.
+
+- Permissions & Profiles
+Ensure appropriate access for teachers and administrators.
+
+## Technology Stack
+
+- Salesforce Lightning Experience
+- SFDX CLI / Salesforce DX for source-driven development
+- Git for version control
+- Developer Sandbox as the working org environment
+
+## Next Steps
+
+1. Set up the Lightning App NihonSchool in Salesforce.
+2. Create custom objects: Student, Course, Enrollment.
+3. Implement basic tabs and navigation for the app.
+4. Plan simple automation and reporting.
+5. Prepare for a demo to showcase progress.
