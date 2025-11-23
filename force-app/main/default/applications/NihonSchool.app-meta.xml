@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>NihonSchool</label>
+    <description>Nihon School CRM - App for school staff</description>
+    <!-- MOBILE visibility -->
+    <formFactors>Small</formFactors>
+    <!-- DESKTOP visibility -->
+    <formFactors>Large</formFactors>
+    <navType>Standard</navType>
+    <uiType>Lightning</uiType>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+</CustomApplication>
