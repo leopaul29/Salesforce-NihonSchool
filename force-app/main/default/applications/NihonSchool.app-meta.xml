@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>NihonSchool</label>
     <description>Nihon School CRM - App for school staff</description>
-    <!-- MOBILE visibility -->
     <formFactors>Small</formFactors>
-    <!-- DESKTOP visibility -->
     <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>NihonSchool</label>
     <navType>Standard</navType>
-    <uiType>Lightning</uiType>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
+    <tabs>Student__c</tabs>
+    <uiType>Lightning</uiType>
 </CustomApplication>
